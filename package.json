@@ -1,0 +1,16 @@
+{
+  "name": "react-node-passport",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:carltonj2000/react-node-passport.git",
+  "author": "Carlton Joseph <carlton.joseph@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "client": "yarn --cwd ./client start",
+    "backend": "yarn --cwd ./backend start",
+    "start": "concurrently \"yarn backend\" \"yarn client\" "
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
